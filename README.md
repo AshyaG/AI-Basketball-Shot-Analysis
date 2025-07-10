@@ -7,8 +7,8 @@ This repository contains my final year university computing project — an AI-po
 ## 🎯 Project Overview
 
 The system processes video footage of basketball free throws and performs:
-- **2D-to-3D pose estimation** with MMPose
-- **Ball detection** using a custom-trained YOLO model
+- **2D and 3D human pose estimation** with MMPose
+- **Ball detection** using a custom-trained YOLOv11 model
 - **Trajectory analysis** to estimate release angle and motion
 - **Similarity evaluation** using Dynamic Time Warping (DTW)
 
@@ -16,8 +16,8 @@ All processing is done within a single Google Colab-compatible notebook.
 
 ## 🧪 Technologies Used
 
-- Python · Jupyter Notebook · PyTorch · OpenCV
-- MMPose (HRNet) · YOLOv5
+- Python · Jupyter Notebook · PyTorch · Roboflow
+- MMPose (HRNet) · YOLOv11
 - Google Colab · FFmpeg
 - Gradio (for visual feedback interface)
 
