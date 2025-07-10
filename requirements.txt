@@ -1,0 +1,31 @@
+# Deep Learning Stack (CUDA 11.8 compatible)
+torch==2.0.1+cu118
+torchvision==0.15.2+cu118
+torchaudio==2.0.2+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Transformers
+transformers==4.30.2
+
+# MMPose & OpenMMLab Ecosystem
+mmengine
+mmcv==2.0.0
+mmdet==3.0.0
+mmpose
+
+# YOLOv8+ via Ultralytics
+ultralytics
+
+# Data & Math Utilities
+numpy==1.26.4
+opencv-python
+matplotlib==3.5.2
+tqdm
+Pillow
+dtw
+pickle-mixin
+
+# Interface & Utilities
+gradio
+tempfile
+shutil
