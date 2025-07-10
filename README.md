@@ -44,7 +44,7 @@ All processing is done within a single Google Colab-compatible notebook.
 ## 📝 Files Included
 
 - `FreethrowAnalysis.ipynb` — Final cleaned notebook
-- `Basketball_Analys_Report.pdf` — Full written dissertation/report
+- `Basketball_shot-Analysis_Report.pdf` — Full written dissertation/report
 - `requirements.txt` — Python dependency list
 - `inputVideos/` — Videos used for testing and training of models and full pipeline, can be used for demo purposes
 
