@@ -64,5 +64,5 @@ pip install -r requirements.txt
 ```
 ### 🎬 System Demos
 Video visualisation demo
-![Demo](demo/SGA_Vis.gif)
+![Demo](Demo/SGA_Vis.gif)
 
