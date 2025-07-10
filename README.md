@@ -31,7 +31,13 @@ All processing is done within a single Google Colab-compatible notebook.
 
 3. **Install Dependencies**  
    - At the top of `FreethrowAnalysisStableFinal.ipynb`, run the provided install cells.
-   - These automatically install: MMPose, Ultralytics YOLO, Gradio, and all required libraries.
+   - These automatically install: Ultralytics YOLO, Gradio, and all required libraries.
+   - install mmpose into the ComputingProject Folder
+     ```bash
+git clone https://github.com/open-mmlab/mmpose.git
+cd mmpose
+pip install -v -e .  # Editable install
+      ```
 
 4. **Run the System**  
    - Execute the notebook cells in sequence.
@@ -48,15 +54,10 @@ All processing is done within a single Google Colab-compatible notebook.
 - `requirements.txt` — Python dependency list for local setup
 - `inputVideos/` — Videos used for testing and training of models and full pipeline, can be used for demo purposes
 
-## 📦 To install MMPose locally:
-```bash
-git clone https://github.com/open-mmlab/mmpose.git
-cd mmpose
-pip install -v -e .  # Editable install
-
 ## ⚙️ Setup for Local Use (Optional, Requires compatible Nvidia GPU)
 
 If you want to run outside Colab:
 
 ```bash
 pip install -r requirements.txt
+```
